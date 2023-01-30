@@ -1,7 +1,7 @@
-<div class="main-sidebar">
+<div class="main-sidebar bg-dark">
     <aside id="sidebar-wrapper">
       <div class="sidebar-brand">
-        <a href="{{route('dashboard')}}">laundry bunda bidah</a>
+        <a href="{{route('dashboard')}}" class="text-white">laundry bunda bidah</a>
       </div>
       <div class="sidebar-brand sidebar-brand-sm">
         <a href="{{url('/dashboard')}}">jujan</a>
@@ -9,8 +9,7 @@
       <ul class="sidebar-menu">
           {{-- link --}}
           @yield('link')
-
-        </ul>
+      </ul>
 
         
     </aside>
